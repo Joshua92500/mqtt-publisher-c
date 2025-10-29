@@ -32,7 +32,6 @@ int main(int argc, char **argv)
 	}
 
 	// Init MQTT
-
 	mosquitto_lib_init();
 
 	struct mosquitto *mq = mosquitto_new("pi-publisher", true, NULL);
