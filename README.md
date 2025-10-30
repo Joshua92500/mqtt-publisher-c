@@ -1,4 +1,4 @@
-# Simple MQTT GPIO Publisher in C
+# MQTT Publisher in C
 
 A lightweight MQTT publisher written in C that reads a GPIO line using [libgpiod](https://libgpiod.readthedocs.io/) and publishes a message to an MQTT broker using [libmosquitto](https://mosquitto.org/api/files/mosquitto-h.html).
 
